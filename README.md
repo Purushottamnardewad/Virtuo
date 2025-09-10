@@ -1,15 +1,15 @@
-##Virtuo
+# Virtuo
 
 Virtuo is a browser-based virtual operating system that brings a fully interactive desktop experience to your web browser. Built with React, it allows you to explore a desktop-like environment with apps, widgets, and an intuitive UI—no installation required.
 
 Whether you want to experiment with a virtual OS, create web-based tools, or showcase interactive UI elements, Virtuo provides a seamless and modern desktop experience entirely in your browser.
 
-Live Demo
+## Live Demo
 
 Check out Virtuo live in your browser: 
 
 
-Features
+## Features
 	• Desktop Environment: Draggable icons and windows
 	• File System: Create, edit, delete files and folders
 	• Terminal: Command-line interface with common Unix-like commands
@@ -18,7 +18,7 @@ Features
 	• Settings: Customizable themes and wallpapers
 	• Persistence: All data stored in browser’s localStorage
 
-Available Terminal Commands
+## Available Terminal Commands
 	•	help - Show available commands
 	•	ls - List directory contents
 	•	mkdir <name> - Create directory
@@ -31,7 +31,7 @@ Available Terminal Commands
 	•	clear - Clear terminal
 	•	echo <message> - Display message
 
-Getting Started
+## Getting Started
 1.	Clone the repository:
 
 git clone https://github.com/Purushottamnardewad/Virtuo.git
@@ -46,14 +46,7 @@ npm run dev
 
 4.	Open your browser at http://localhost:3000 to explore the virtual OS.
 
-Project Structure
-
-src/
-├── App.jsx          # Main application component
-├── main.jsx         # React entry point
-└── index.css        # Global styles and Tailwind imports
-
-Technologies Used
+## Technologies Used
 	•	React 18 - User interface library
 	•	Framer Motion - Animation library
 	•	Tailwind CSS - Utility-first CSS framework
@@ -101,7 +94,7 @@ The OS supports various customization options:
 	•	Wallpapers: Ocean Blue, Purple Sunset, Forest Green, Storm Gray
 	•	Icon Positions: Drag icons to customize desktop layout
 
-Data Persistence
+## Data Persistence
 
 All data is stored in the browser’s localStorage:
 	•	File system structure and content
@@ -110,7 +103,7 @@ All data is stored in the browser’s localStorage:
 	•	Command history
 	•	Recycle bin contents
 
-Contributing
+## Contributing
 
 This is a demonstration project showcasing React capabilities for building desktop-like interfaces. Feel free to extend it with additional features like:
 	•	More terminal commands
