@@ -10,13 +10,13 @@ Check out Virtuo live in your browser: https://virtuo-six.vercel.app/
 
 
 ## Features
-	• Desktop Environment: Draggable icons and windows
-	• File System: Create, edit, delete files and folders
-	• Terminal: Command-line interface with common Unix-like commands
-	• Text Editor: Built-in text editor with syntax highlighting
-	• Recycle Bin: Temporary storage for deleted items
-	• Settings: Customizable themes and wallpapers
-	• Persistence: All data stored in browser’s localStorage
+* Desktop Environment: Draggable icons and windows
+* File System: Create, edit, delete files and folders
+* Terminal: Command-line interface with common Unix-like commands
+* Text Editor: Built-in text editor with syntax highlighting
+* Recycle Bin: Temporary storage for deleted items
+* Settings: Customizable themes and wallpapers
+* Persistence: All data stored in browser’s localStorage
 
 ## Available Terminal Commands
 	•	help - Show available commands
@@ -47,67 +47,67 @@ npm run dev
 4.	Open your browser at http://localhost:3000 to explore the virtual OS.
 
 ## Technologies Used
-	•	React 18 - User interface library
-	•	Framer Motion - Animation library
-	•	Tailwind CSS - Utility-first CSS framework
-	•	Vite - Build tool and development server
+* React 18 - User interface library
+* Framer Motion - Animation library
+* Tailwind CSS - Utility-first CSS framework
+* Vite - Build tool and development server
 
 ## Features Overview
 
-Desktop Icons
-	•	Draggable desktop icons for applications
-	•	Double-click to open applications
-	•	Icons show status (e.g., recycle bin shows count)
+### Desktop Icons
+* Draggable desktop icons for applications
+* Double-click to open applications
+* Icons show status (e.g., recycle bin shows count)
 
-File Explorer
-	•	Browse and manage files/folders
-	•	Right-click context menu for file operations
-	•	Create new files and folders
-	•	Double-click files to edit them
+### File Explorer
+* Browse and manage files/folders
+* Right-click context menu for file operations
+* Create new files and folders
+* Double-click files to edit them
 
-Terminal
-	•	Unix-like command interface
-	•	File system operations
-	•	Command history and auto-focus
+### Terminal
+* Unix-like command interface
+* File system operations
+* Command history and auto-focus
 
-Text Editor
-	•	Edit any text file
-	•	Real-time character and line count
-	•	Keyboard shortcuts (Ctrl+S to save)
-	•	Unsaved changes indicator
+### Text Editor
+* Edit any text file
+* Real-time character and line count
+* Keyboard shortcuts (Ctrl+S to save)
+* Unsaved changes indicator
 
-Settings
-	•	Switch between light and dark themes
-	•	Multiple wallpaper options
-	•	Persistent settings storage
+### Settings
+* Switch between light and dark themes
+* Multiple wallpaper options
+* Persistent settings storage
 
-Recycle Bin
-	•	Temporary storage for deleted items
-	•	Restore deleted files/folders
-	•	Permanent deletion option
-	•	Visual indicator for non-empty bin
+### Recycle Bin
+* Temporary storage for deleted items
+* Restore deleted files/folders
+* Permanent deletion option
+* Visual indicator for non-empty bin
 
-Customization
+## Customization
 
 The OS supports various customization options:
-	•	Themes: Light and Dark modes
-	•	Wallpapers: Ocean Blue, Purple Sunset, Forest Green, Storm Gray
-	•	Icon Positions: Drag icons to customize desktop layout
+* Themes: Light and Dark modes
+* Wallpapers: Ocean Blue, Purple Sunset, Forest Green, Storm Gray
+* Icon Positions: Drag icons to customize desktop layout
 
 ## Data Persistence
 
 All data is stored in the browser’s localStorage:
-	•	File system structure and content
-	•	Application settings and preferences
-	•	Desktop icon positions
-	•	Command history
-	•	Recycle bin contents
+* File system structure and content
+* Application settings and preferences
+* Desktop icon positions
+* Command history
+* Recycle bin contents
 
 ## Contributing
 
 This is a demonstration project showcasing React capabilities for building desktop-like interfaces. Feel free to extend it with additional features like:
-	•	More terminal commands
-	•	Additional applications
-	•	Network simulation
-	•	Process management
-	•	More file types and viewers
+* More terminal commands
+* Additional applications
+* Network simulation
+* Process management
+* More file types and viewers
